@@ -1,6 +1,7 @@
 const http = require('http');
 const url = require('url');
 const fs = require('fs');
+const path = require('path');
 const readline = require('readline');
 const querystring = require('querystring');
 const spawnSync = require('child_process').spawnSync;
@@ -34,7 +35,7 @@ http.createServer((req, res) => {
 }).listen(8180);
 
 function addBookmark(obj) {
-    let fileName = 'bookmark.md';
+    let fileName = path.resolve(__dirname, './bookmark.md');
     let data = [];
     let inserted = false;
     const date = new Date();
@@ -75,7 +76,7 @@ function addBookmark(obj) {
                 }
                 console.log('saved ' + fileName);
                 resolve();
-                //syncToGithub(title);
+                syncToGithub(obj.title);
             });
         });
     });
