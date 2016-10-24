@@ -6,6 +6,10 @@ const readline = require('readline');
 const querystring = require('querystring');
 const spawnSync = require('child_process').spawnSync;
 
+
+/**
+ * 创建一个server，用于获取书签名称和地址
+ */
 http.createServer((req, res) => {
     let urlData = url.parse(req.url);
     let queryObj = querystring.parse(urlData.query);
@@ -34,6 +38,11 @@ http.createServer((req, res) => {
 
 }).listen(8180);
 
+/**
+ * 添加书签到 bookmark.md文件中
+ * @param obj {object} 书签的名称和地址
+ * @return {Promise}
+ */
 function addBookmark(obj) {
     let fileName = path.resolve(__dirname, './bookmark.md');
     let data = [];
@@ -82,6 +91,10 @@ function addBookmark(obj) {
     });
 }
 
+/**
+ * 同步到github
+ * @param title {string} commit的时候的comment
+ */
 function syncToGithub(title) {
     var cmds = [
         ['git', ['add', '.']],
@@ -91,6 +104,6 @@ function syncToGithub(title) {
     ];
     cmds.forEach((cmd) => {
         let result = spawnSync(cmd[0], cmd[1]);
-        console.log(result.output.join('\n'));
+        console.log(result.output.join(''));
     });
 }
