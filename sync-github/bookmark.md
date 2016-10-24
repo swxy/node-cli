@@ -1,6 +1,7 @@
 ### 2016-10-24<br />
 + [25. Promises for asynchronous programming](http://exploringjs.com/es6/ch_promises.html)<br />
 + [25. Promises for asynchronous programming](http://exploringjs.com/es6/ch_promises.html)<br />
++ [25. Promises for asynchronous programming](http://exploringjs.com/es6/ch_promises.html)<br />
 
 ### 2016-10-22<br />
 + [Come on Baby! 你也可以成为Web开发工程师！——Web开发工程师完全成长指南 - 从零学习前端开发 - 知乎专栏](https://zhuanlan.zhihu.com/p/22978846)<br />
