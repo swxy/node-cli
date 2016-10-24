@@ -9,6 +9,22 @@ node 命令行开发
 ## dict
 使用推酷上用的有道词典查询接口，实现输入单词进行查询。
 
+## global
+普通js文件到系统可执行命令中间都发生了些什么？
+
+1. 添加shebang
+
+2. 添加可执行权限chmod +x filename
+
+3. 使用npm init生成package.json文件，
+
+4. 在package.json文件中添加bin字段
+
+5. 使用npm link链接到全局
+
+## minimist
+minimist解析参数 [详细请见:https://github.com/substack/minimist](https://github.com/substack/minimist)
+
 ## shebang
 设置不同的默解释程序，再不同node环境下运行。
 
