@@ -16,6 +16,20 @@ node 命令行开发
 一键同步到github上， [原理](http://www.jianshu.com/p/19d2f3a3b5d8)大致为：
 
 1. 使用浏览器书签获取需要保存的页面的title和url，然后发送到后端
+
 2. 获取相关title和url，先保存到本地文件，然后提交到github上
 
-点击查看[已经上传的书签](./sync-github/bookmark.md)
+[点击查看已经上传的书签](./sync-github/bookmark.md)
+
+使用说明：
+
+1. 先用浏览器打开`sync-github/bookmark.html`
+
+2. 把页面里边的链接拖动到书签栏，保存为书签`bookmark`
+
+3. 启动服务器
+  ```
+  node server.js
+  ```
+  
+4. 在需要保存到github的页面，点击刚刚保存的`bookmark`书签
