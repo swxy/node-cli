@@ -1,3 +1,6 @@
+### 2016-10-27<br />
++ [后端的轮子（三）--- 缓存](http://mp.weixin.qq.com/s?__biz=MjM5ODczNTkwMA==&mid=2650107148&idx=1&sn=1f6d8610c21a55dc3490c16002ee8c1a&scene=0#wechat_redirect)<br />
+
 ### 2016-10-24<br />
 + [25. Promises for asynchronous programming](http://exploringjs.com/es6/ch_promises.html)<br />
 + [25. Promises for asynchronous programming](http://exploringjs.com/es6/ch_promises.html)<br />
