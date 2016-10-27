@@ -1,4 +1,5 @@
 ### 2016-10-27<br />
++ [正在失业中的《课多周刊》（第3期）](https://w3crange.com/issue/57a7539a5bbb5000642fec0e)<br />
 + [分布式队列编程优化篇 -](http://tech.meituan.com/distributed_queue_based_programming-optimization.html)<br />
 + [后端的轮子（三）--- 缓存](http://mp.weixin.qq.com/s?__biz=MjM5ODczNTkwMA==&mid=2650107148&idx=1&sn=1f6d8610c21a55dc3490c16002ee8c1a&scene=0#wechat_redirect)<br />
 
